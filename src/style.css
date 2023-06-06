@@ -1,0 +1,17 @@
+body{
+    font-family: arial,fantasy;
+    background-color: rgb(138, 151, 135);
+}
+
+header{
+    color:rgb(2, 62, 70);
+}
+footer{
+    color:rgb(164, 247, 12)
+}
+
+.metricas{
+    font-size: 20px;
+    color: rgb(51, 78, 153)
+}
+
