@@ -1,16 +1,19 @@
 body{
     font-family: arial,fantasy;
-    background-color: rgb(138, 151, 135);
+    background-color: rgb(205, 248, 224);
+    text-align: center;
 }
+    
 
 header{
     font-weight: bolder;
     color:rgb(2, 62, 70);
-    }
+}  
+    
 
 footer {
     font-weight: bolder;
-        
+    text-align: right;  
 }
 
 .metricas {
@@ -21,8 +24,4 @@ footer {
 #reset-button {
     background-color: rgb(101, 143, 105);
   color: rgb(1, 12, 10);
-}
-
-div {
-    text-align: center;
 }
