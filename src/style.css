@@ -4,14 +4,25 @@ body{
 }
 
 header{
+    font-weight: bolder;
     color:rgb(2, 62, 70);
-}
-footer{
-    color:rgb(164, 247, 12)
+    }
+
+footer {
+    font-weight: bolder;
+        
 }
 
-.metricas{
-    font-size: 20px;
-    color: rgb(51, 78, 153)
+.metricas {
+    font-size: 15px;
+    color: rgb(51, 78, 153);
 }
 
+#reset-button {
+    background-color: rgb(101, 143, 105);
+  color: rgb(1, 12, 10);
+}
+
+div {
+    text-align: center;
+}
