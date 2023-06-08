@@ -19,6 +19,7 @@ footer {
 .metricas {
     font-size: 15px;
     color: rgb(51, 78, 153);
+    border-color: black;
 }
 
 #reset-button {
