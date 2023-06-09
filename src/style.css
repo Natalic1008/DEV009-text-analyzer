@@ -2,8 +2,7 @@ body{
     font-family: arial,fantasy;
     background-color: rgb(205, 248, 224);
     text-align: center;
-}
-    
+} 
 
 header{
     font-weight: bolder;
@@ -16,13 +15,19 @@ footer {
     text-align: right;  
 }
 
-.metricas {
-    font-size: 15px;
-    color: rgb(51, 78, 153);
-    border-color: black;
+.padre{
+    background-color: rgba(50, 115, 220, 0.1);
+    width:500px;
+    margin-left: 400px;   
 }
+#user-input{
+    margin: 50px;
 
+}
 #reset-button {
     background-color: rgb(101, 143, 105);
   color: rgb(1, 12, 10);
 }
+
+
+

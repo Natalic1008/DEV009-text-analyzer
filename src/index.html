@@ -11,21 +11,23 @@
   <header >
     <h1> ANALIZADOR DE TEXTO </h1>
   </header>
-    <textarea name ="user-input" rows="10" cols="63"></textarea>
-<section>
-  <ul>
-    <li class ="metricas"> Recuento de palabras: </li>
-    <li class ="metricas"> Recuento de caracteres:</li>
-    <li class ="metricas"> Recuento de caracteres excluyendo espacios y signos de puntuación: </li>
-    <li class ="metricas"> Suma total de los números: </li>
-    <li class ="metricas"> Longitud media de las palabras:</li>
+  <form> 
+    <textarea placeholder="Ingrese texto" name ="user-input" rows="10" cols="63"></textarea>
+  </form>
+  <ul class="metricas">
+    <li class ="palabras"> Palabras:0</li>
+    <li class ="caracteres"> Caracteres:0 </li>
+    <li class ="exclusion"> Caracteres excluyendo espacios y signos de puntuación:0</li>
+    <li class = "numeros"> Números:0</li>
+    <li class ="suma"> Suma de números:0</li>
+    <li class ="longitud"> Longitud media:0</li>
   </ul>  
-</section>
+
   <footer> 
     <p> Autor: Natali Mestizo</p>
   </footer>
-<div>
-  <button type= "button" id = "reset-button">"Reset" </button>
-</div>
+
+  <button id = "reset-button">"Reset" </button>
+
 </body>
 </html>
