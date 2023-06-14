@@ -17,15 +17,45 @@ footer {
 
 .metricas{
     background-color: rgba(50, 115, 220, 0.1);
-    width:500px;
-    margin-left: 400px;   
-}
-#user-input{
-    margin: 50px;
+    width:450px;
+    height:200px;
+    margin-left: 430px;
+    border: 1px solid rgb(28, 146, 111); 
+    padding-top: 10px;
 
 }
+.palabras{
+    color: black;
+    width: 80px;
+    height:30px;
+}  
+.caracteres{
+    color: black;
+    width: 80px;
+    height:30px;
+}
+.exclusion{
+    color: black;
+    width: 415px;
+    height:30px; 
+}
+.numeros{
+    color: black;
+    width: 80px;
+    height:30px;
+}
+.suma{
+    color: black;
+    width: 150px;
+    height:30px;
+}
+.longitud{
+    color: black;
+    width: 135px;
+    height:30px;
+}
 #reset-button {
-    background-color: rgb(101, 143, 105);
+  background-color: rgb(101, 143, 105);
   color: rgb(1, 12, 10);
 }
 

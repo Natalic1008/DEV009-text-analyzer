@@ -1,7 +1,7 @@
 const analyzer = {  
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    return text.trim().split(' ').length;
+    return text.trim().split(/\s+/).length;
   },
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
@@ -21,18 +21,29 @@ const analyzer = {
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   
-    const countNumber = 0;
-    const results = results.split(' ');
+    let countNumber = 0;
+    const results = text.trim().split(' ');
 
-    for (let i=0; i<(results.length);i++){
-      if(isNaN(results[i])){
-        countNumber=countNumber+1;
+    for (let i=0; i<results.length;i++){
+      if(!isNaN(results[i])){
+        countNumber++;
       }
-      return countNumber;
     }
+    return countNumber;
   },
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+    let countNumbers = 0;
+    const result = text.trim().split(' ');
+
+    for (let i=0; i<result.length;i++){
+      if (isNaN(parseFloat(result[i]))){
+        countNumbers+=0;
+      } else {
+        countNumbers+=parseFloat(result[i]);
+      }
+      return countNumbers
+    }
   },
 };
 
