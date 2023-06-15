@@ -15,16 +15,16 @@ const analyzer = {
   getAverageWordLength: (text) => {    
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
     const totalCharacters=text.trim().replace(/\s+/g,'').length;
-    const numWords=text.trim().split(/\s+/).length;
+    const numWords=text.trim().split(" ").length;
     return parseFloat((totalCharacters/numWords).toFixed(2));
   },
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   
     let countNumber = 0;
-    const results = text.trim().split(' ');
+    const results = text.trim().split(/\s+/);
 
-    for (let i=0; i<results.length;i++){
+    for (let i=0; i<results.length; i++){
       if(!isNaN(results[i])){
         countNumber++;
       }
@@ -34,16 +34,14 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     let countNumbers = 0;
-    const result = text.trim().split(' ');
-
-    for (let i=0; i<result.length;i++){
-      if (isNaN(parseFloat(result[i]))){
-        countNumbers+=0;
-      } else {
+    const result = text.trim().split(/\s+/);
+  
+    for (let i=0; i<result.length; i++){
+      if (!isNaN (result[i])){
         countNumbers+=parseFloat(result[i]);
-      }
-      return countNumbers
+      }   
     }
+    return countNumbers
   },
 };
 

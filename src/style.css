@@ -15,44 +15,63 @@ footer {
     text-align: right;  
 }
 
+textarea[name="user-input"]{
+    border-radius:20px; 
+    text-align: justify; 
+    background-color: rgb(177, 215, 177);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .metricas{
-    background-color: rgba(50, 115, 220, 0.1);
-    width:450px;
+    background-color: rgba(28, 52, 90, 0.1);
+    width:480px;
     height:200px;
     margin-left: 430px;
-    border: 1px solid rgb(28, 146, 111); 
-    padding-top: 10px;
-
+    border-radius:25% 10%;  
+    padding-top: 50px;
 }
+
 .palabras{
     color: black;
-    width: 80px;
+    width: 100px;
     height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202);
+    font-family:Verdana;
 }  
 .caracteres{
     color: black;
-    width: 80px;
+    width: 120px;
     height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202);
 }
 .exclusion{
     color: black;
-    width: 415px;
-    height:30px; 
+    width: 450px;
+    height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202); 
 }
 .numeros{
     color: black;
-    width: 80px;
+    width: 100px;
     height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202); 
 }
 .suma{
     color: black;
-    width: 150px;
+    width: 180px;
     height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202);
 }
 .longitud{
     color: black;
-    width: 135px;
+    width: 150px;
     height:30px;
+    border-radius:20% 10%;
+    background-color: rgb(174, 190, 202);
 }
 #reset-button {
   background-color: rgb(101, 143, 105);
