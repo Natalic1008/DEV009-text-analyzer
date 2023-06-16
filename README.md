@@ -7,20 +7,28 @@ Brindar al ususario una experiencia de alta calidad en la identificación de mé
 Las métricas utilizadas son: Conteo de palabras, Conteo de caracteres, Conteo de palabras excluyendo espacios y signos de puntuación,Longitud promedio de palabras, Conteo de números y Suma de números
 
 ## 2. Metodología
-a. Lectura de redme original para identificar que solicitaba el proyecto
-b. Realice el prototipo de baja fidelidad
+1. Lectura de redme original para identificar que solicitaba el proyecto.
+
+2. Realice el prototipo de baja fidelidad.
+
 ![prueba](imagen/boceto.jpg)
 
-c. En Trello desarrolle la planificación del proyecto
+3. En Trello desarrolle la planificación del proyecto.
+
 ![prueba1](imagen/planificacion.png)
 
-d. Descargue los programas que solicitaban, creando la SSH Key en GitHub
-e. Inicie creando el proyecto en HTM de acuerdo a los requisitos minimos
-f. Luego segui con CSS con lo básico
-g. Desarrole las funciones en Java Scrip
-h. Corrí los test
+4. Descargue los programas que solicitaban, creando la SSH Key en GitHub.
 
-i. Desplegue la página en github.
+5. Inicie creando el proyecto en HTM de acuerdo a los requisitos minimos.
+
+6. Luego segui con CSS con lo básico.
+
+7. Desarrole las funciones en JavaScript.
+
+8. Corrí los test
+
+9. Desplegue la página en github.
+
 ![prueba2](imagen/Pagina%20terminada.png)
 
 ## 3. Funcionalidades
