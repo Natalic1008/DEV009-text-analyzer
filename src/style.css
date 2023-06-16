@@ -22,12 +22,14 @@ textarea[name="user-input"]{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .metricas{
-    background-color: rgba(28, 52, 90, 0.1);
+    background-color: rgb(173, 202, 225);
     width:480px;
-    height:200px;
-    margin-left: 430px;
-    border-radius:25% 10%;  
+    height:300px;
+    margin-left: 400px;
+    border-radius:25% 10%;
+    border-right: thick double #5593ab;  
     padding-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .palabras{
@@ -35,43 +37,42 @@ textarea[name="user-input"]{
     width: 100px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202);
-    font-family:Verdana;
+    background-color: rgb(164, 197, 222);
 }  
 .caracteres{
     color: black;
     width: 120px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202);
+    background-color: rgb(164, 197, 222);
 }
 .exclusion{
     color: black;
     width: 450px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202); 
+    background-color:rgb(164, 197, 222); 
 }
 .numeros{
     color: black;
     width: 100px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202); 
+    background-color: rgb(164, 197, 222); 
 }
 .suma{
     color: black;
     width: 180px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202);
+    background-color: rgb(164, 197, 222);
 }
 .longitud{
     color: black;
     width: 150px;
     height:30px;
     border-radius:20% 10%;
-    background-color: rgb(174, 190, 202);
+    background-color:rgb(164, 197, 222);
 }
 #reset-button {
   background-color: rgb(101, 143, 105);
