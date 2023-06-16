@@ -7,7 +7,7 @@ Brindar al ususario una experiencia de alta calidad en la identificación de mé
 Las métricas utilizadas son: Conteo de palabras, Conteo de caracteres, Conteo de palabras excluyendo espacios y signos de puntuación,Longitud promedio de palabras, Conteo de números y Suma de números
 
 ## 2. Metodología
-1. Lectura de redme original para identificar que solicitaba el proyecto.
+1. Lectura de readme original para identificar que solicitaba el proyecto.
 
 2. Realice el prototipo de baja fidelidad.
 
