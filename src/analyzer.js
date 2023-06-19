@@ -15,7 +15,7 @@ const analyzer = {
   getAverageWordLength: (text) => {    
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
     const totalCharacters=text.trim().replace(/\s+/g,'').length;
-    const numWords=text.trim().split(" ").length;
+    const numWords=text.trim().split(/\s+/).length;
     return parseFloat((totalCharacters/numWords).toFixed(2));
   },
   getNumberCount: (text) => {
