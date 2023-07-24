@@ -41,4 +41,4 @@ Mi proyecta tiene las siguiente funcionalidades:
 5. Todos los test pasan.
 -npm run test:oas
 -npm run test
-npm run test:e2e
+npm run test:e2e.
