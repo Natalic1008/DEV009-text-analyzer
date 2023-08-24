@@ -31,7 +31,7 @@ Las métricas utilizadas son: Conteo de palabras, Conteo de caracteres, Conteo d
 
 ![prueba2](imagen/Pagina%20terminada.png)
 
-## 3. Funcionalidades
+## 3. Funcionalidadesain
 
 Mi proyecta tiene las siguiente funcionalidades:
 1. Permitir al usuario ingresar un texto escribiéndolo en un cuadro de texto.
